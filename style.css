@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #fbfbfb;
+    margin: 0 auto;
+    background-image: url('./img/fundo.jpg');
+}
+
+
+
+.titulo-listas{
+    display: flex;
+    line-height: 50px;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+#carrinho{
+    width: 50px;
+    height: 50px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    display: inline;
+    font-size: 35px;
+    margin-left: 15px;
+    margin: 50px;
+    border-bottom: 3px solid#000;
+}
+
+.container{
+    display: flex;
+}
+section{
+    background: #2e2e2e;
+    color: #fff;
+}
+
+.lista-compras{
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px #535353;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.lista-compras:hover{
+    box-shadow: 2px 2px 25px 2px #2e2e2e;
+}
+
+.lista-compras li{
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.lista-compras h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pai{
+    background: rgb(93, 156, 202);
+}
+
+.mae{
+    background: rgb(146, 10, 78);
+}
+
+.filho{
+    background: rgb(93, 202, 153);
+}
+
+.filha{
+    background: rgb(255, 0, 140);
+}
+
+/* Cardápio */
+
+.container-cardapio{
+    margin: 0 auto;
+    display: flex;
+}
+
+.cardapio{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.cardapio-titulo{
+    display: flex;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#cardapio-img{
+    width: 50px;
+    height: 50px;
+}
+
+table{
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px 2px #535353;
+}
+
+td{
+    padding: 15px;
+}
+
+tbody tr{
+    background: #ffffff;
+  }
+
+tbody tr:nth-child(odd){
+  background: #c7c7c7;
+}
+
+tbody td:hover{
+    background-color: #11cf00;
+    color: #fff;
+    cursor: pointer;
+}
+.tbody td{
+    padding: 20px;
+}
+
+
+.cafe{
+    background: #fff68f;
+    font-weight: 600;
+}
+.lanche{
+    background: #c4c4fc;
+    font-weight: 600;
+}
+.almoco{
+    background: #eadde3;
+    font-weight: 600;
+}
+.janta{
+    background: #b9a898;
+    font-weight: 600;
+}
+
+
+.segunda{
+  background:#141384;
+  color: #fff;
+}
+
+.terça{
+    background:#52a666;
+    color: #fff;
+  }
+
+  .quarta{
+    background:#ff0000;
+    color: #fff;
+  }
+
+  .quinta{
+    background:#a41051;
+    color: #fff;
+  }
+
+  .sexta{
+    background:#8a2be2;
+    color: #fff;
+  }
+
+  .sabado{
+    background:#4a2668;
+    color: #fff;
+  }
+
+
+  .domingo{
+    background:#ff8d00;
+    color: #fff;
+  }
+
+/* Lista de Tarefas */
+
+.container-tarefa{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .lista-tarefa{
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px #535353;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+ }
+
+ .lista-tarefa li{
+    margin-left: 20px;
+    padding: 5px;
+ }
+
+ .lista-tarefa li:hover{
+   color: #2cff5e;
+   cursor: pointer;
+ }
+
+ .titulo-tarefa{
+    display: flex;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#tarefa-img{
+    width: 50px;
+    height: 50px;
+}
+.footer{
+    display: flex;
+    margin-right: 50px;
+}
+
+.familia{
+    width: 350px;
+}   
